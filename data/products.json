@@ -1,0 +1,139 @@
+{
+  "store": {
+    "name": "Lumière Beauty",
+    "whatsapp": "573001234567",
+    "currency": "COP"
+  },
+  "categories": [
+    { "id": "all",    "label": "Todos",   "emoji": "✨" },
+    { "id": "labios", "label": "Labios",  "emoji": "💄" },
+    { "id": "ojos",   "label": "Ojos",    "emoji": "👁️" },
+    { "id": "rostro", "label": "Rostro",  "emoji": "🌸" },
+    { "id": "cejas",  "label": "Cejas",   "emoji": "✍️" },
+    { "id": "piel",   "label": "Cuidado", "emoji": "💎" }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "name": "Labial Matte Velvet",
+      "brand": "Maybelline",
+      "category": "labios",
+      "price": 38000,
+      "originalPrice": 52000,
+      "description": "Fórmula de larga duración con acabado aterciopelado. Sin transferencia por hasta 16 horas.",
+      "shades": [
+        { "name": "Ruby Red",   "hex": "#9B1C2E" },
+        { "name": "Nude Rosé",  "hex": "#C4907A" },
+        { "name": "Berry Bold", "hex": "#6B2D5E" },
+        { "name": "Coral Kiss", "hex": "#E8705A" }
+      ],
+      "image": "https://images.unsplash.com/photo-1586495777744-4e6232bf4c85?w=600&q=80",
+      "badge": "sale",
+      "badgeLabel": "27% OFF",
+      "featured": true,
+      "rating": 4.8,
+      "reviews": 124,
+      "stock": true
+    },
+    {
+      "id": "p002",
+      "name": "Paleta Sunset Glow",
+      "brand": "NYX",
+      "category": "ojos",
+      "price": 89000,
+      "originalPrice": null,
+      "description": "12 tonos cálidos en acabados matte, shimmer y glitter ultra-pigmentados.",
+      "shades": [],
+      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&q=80",
+      "badge": "new",
+      "badgeLabel": "Nuevo",
+      "featured": true,
+      "rating": 4.5,
+      "reviews": 89,
+      "stock": true
+    },
+    {
+      "id": "p003",
+      "name": "Base Fluida Natural",
+      "brand": "L'Oréal",
+      "category": "rostro",
+      "price": 72000,
+      "originalPrice": 85000,
+      "description": "Cobertura media-alta de hasta 24 horas con SPF 30 y acabado skin finish natural.",
+      "shades": [
+        { "name": "Ivory",      "hex": "#F5E6D3" },
+        { "name": "Beige Warm", "hex": "#D4A882" },
+        { "name": "Caramel",    "hex": "#9B6A3E" },
+        { "name": "Espresso",   "hex": "#5C3317" }
+      ],
+      "image": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600&q=80",
+      "badge": "sale",
+      "badgeLabel": "15% OFF",
+      "featured": false,
+      "rating": 4.7,
+      "reviews": 213,
+      "stock": true
+    },
+    {
+      "id": "p004",
+      "name": "Delineador Precision Ink",
+      "brand": "MAC",
+      "category": "ojos",
+      "price": 95000,
+      "originalPrice": null,
+      "description": "Delineador líquido de punta ultrafina. Negro intenso, resistente al agua 24 horas.",
+      "shades": [
+        { "name": "Jet Black",   "hex": "#1A1A1A" },
+        { "name": "Deep Brown",  "hex": "#4A2C2A" }
+      ],
+      "image": "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&q=80",
+      "badge": "bestseller",
+      "badgeLabel": "Top ventas",
+      "featured": true,
+      "rating": 4.9,
+      "reviews": 342,
+      "stock": true
+    },
+    {
+      "id": "p005",
+      "name": "Iluminador Glow Drops",
+      "brand": "Revolution",
+      "category": "rostro",
+      "price": 45000,
+      "originalPrice": null,
+      "description": "Sérum iluminador para un efecto lit-from-within irresistible. Mezcla con tu base o aplica solo.",
+      "shades": [
+        { "name": "Rose Gold",  "hex": "#B5784E" },
+        { "name": "Champagne", "hex": "#D4B483" },
+        { "name": "Pearl",     "hex": "#E8DDD0" }
+      ],
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=80",
+      "badge": "new",
+      "badgeLabel": "Nuevo",
+      "featured": false,
+      "rating": 4.4,
+      "reviews": 67,
+      "stock": true
+    },
+    {
+      "id": "p006",
+      "name": "Máscara Sky High",
+      "brand": "Maybelline",
+      "category": "ojos",
+      "price": 55000,
+      "originalPrice": 65000,
+      "description": "Alarga y riza las pestañas al infinito con fibras de bambú. Resistente al agua.",
+      "shades": [
+        { "name": "Blackest Black", "hex": "#0A0A0A" },
+        { "name": "Brownish Black", "hex": "#2D1A14" }
+      ],
+      "image": "https://images.unsplash.com/photo-1631214500004-a64f6e71a1f8?w=600&q=80",
+      "badge": "bestseller",
+      "badgeLabel": "Top ventas",
+      "featured": false,
+      "rating": 4.8,
+      "reviews": 501,
+      "stock": true
+    }
+  ]
+}
