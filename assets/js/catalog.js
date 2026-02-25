@@ -59,19 +59,6 @@ export function renderBrandSelect(selectEl, brands) {
  * @param {object}      store         - Config tienda
  * @param {object}      callbacks     - { onCardClick, onWish, onWACard }
  */
-export function renderSkeletons(grid, count = 6) {
-  grid.innerHTML = Array.from({ length: count }, () => `
-    <div class="product-card skeleton-card" aria-hidden="true">
-      <div class="product-card__img-wrap skeleton"></div>
-      <div class="product-card__body" style="gap:12px">
-        <div class="skeleton" style="height:12px;width:60%;border-radius:99px"></div>
-        <div class="skeleton" style="height:16px;width:85%;border-radius:99px"></div>
-        <div class="skeleton" style="height:14px;width:40%;border-radius:99px"></div>
-        <div class="skeleton" style="height:40px;border-radius:12px;margin-top:auto"></div>
-      </div>
-    </div>
-  `).join('');
-}
 
 export function renderProducts(grid, products, wishlist, store, callbacks) {
   if (products.length === 0) {
