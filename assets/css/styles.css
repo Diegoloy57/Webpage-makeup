@@ -1143,4 +1143,50 @@
   .hero__content {
     max-width: 520px;
   }
+  .skeleton-card {
+  pointer-events: none;
+  cursor: default;
+}
+
+.skeleton-card .product-card__img-wrap {
+  aspect-ratio: 1 / 1;
+}
+/* ── Skeleton loader ─────────────────────────────────────── */
+.skeleton-card {
+  pointer-events: none;
+  cursor: default;
+}
+
+.skeleton-card .product-card__img-wrap {
+  aspect-ratio: 1 / 1;
+}
+
+/* ── Stock agotado ───────────────────────────────────────── */
+.product-card__out-of-stock {
+  position: absolute;
+  inset: 0;
+  background: rgba(250,246,242,.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--clr-text-md);
+  backdrop-filter: blur(2px);
+  z-index: 3;
+}
+
+.out-of-stock .product-card__img {
+  filter: grayscale(40%);
+}
+
+.btn-wa-card:disabled {
+  background: var(--clr-border);
+  color: var(--clr-text-lt);
+  box-shadow: none;
+  transform: none;
+  cursor: not-allowed;
+}
 }

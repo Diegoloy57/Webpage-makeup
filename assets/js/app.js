@@ -2,7 +2,8 @@
 
 import { applyFilters, extractBrands }              from './filters.js';
 import { renderCategories, renderBrandSelect,
-         renderProducts, updateResultsCount }        from './catalog.js';
+         renderProducts, renderSkeletons,
+         updateResultsCount }                        from './catalog.js';
 import { buildWALink }                              from './whatsapp.js';
 
 /* ── Estado global de la app ─────────────────────────────── */
@@ -207,6 +208,7 @@ function initEvents() {
 
 /* ── Bootstrap: carga el JSON y arranca ─────────────────── */
 async function init() {
+  renderSkeletons(DOM.productsGrid, 6);
   try {
     const res  = await fetch('./data/products.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
