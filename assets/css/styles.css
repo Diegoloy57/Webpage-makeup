@@ -1105,3 +1105,42 @@
       .search-wrap { flex: 1; }
       .categories__scroll { justify-content: center; }
     }
+    /* Hero model image */
+.hero__model {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 45%;
+  pointer-events: none;
+  overflow: hidden;
+  display: none;
+}
+
+.hero__model img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  mask-image: linear-gradient(
+    to left,
+    rgba(0,0,0,.7) 40%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to left,
+    rgba(0,0,0,.7) 40%,
+    transparent 100%
+  );
+  opacity: .85;
+}
+
+@media (min-width: 768px) {
+  .hero__model {
+    display: block;
+  }
+
+  .hero__content {
+    max-width: 520px;
+  }
+}
